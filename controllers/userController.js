@@ -97,13 +97,13 @@ function sendEmail(firstName, courseSelected, emailAddress, user) {
 
   switch (courseSelected) {
     case "Frontend Development":
-      tuitionFee = 0.5 * 407000;
+      tuitionFee = 0.4 * 407000;
       break;
     case "Full-Stack Development":
-      tuitionFee = 0.5 * 627000;
+      tuitionFee = 0.4 * 627000;
       break;
     case "Product UI/UX Design":
-      tuitionFee = 0.5 * 150000;
+      tuitionFee = 0.4 * 150000;
       break;
     case "Blockchain Development":
       tuitionFee = 0;
